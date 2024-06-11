@@ -1,0 +1,31 @@
+body{
+    background-color: #48e;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+.box{
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    margin: 0;
+    
+    /* background-color: #f2e;
+    background-image: url("https://i.pinimg.com/736x/de/62/3a/de623addcf7834fe3e121b1d5e147e9b.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed; */
+    /* simplificado */
+    background: url("https://i.pinimg.com/736x/de/62/3a/de623addcf7834fe3e121b1d5e147e9b.jpg") top / cover fixed #f2e;
+
+
+}
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #f00a;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+}
