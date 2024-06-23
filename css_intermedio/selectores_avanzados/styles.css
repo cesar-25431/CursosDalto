@@ -1,0 +1,30 @@
+/* $ lo que hace ese signo es que escoge una imagne que tetemrine el formato que se pone al final example 
+img[src$="png"]
+----
+^ lo que hace ese signo es que llama  ala figura pero con comienza el nombre
+img[src^="goku"]
+*/
+
+/* Selector por atributo */
+img[src="goku.png"]{
+    width: 100%;
+}
+/* SELECCION DESCENDIENTE */
+UL LI{
+    color: #666;
+}
+
+/* Selectores por Hijo directo  */
+
+li > strong{
+    color: red;
+}   
+
+/* Selector de hermano adyancente */
+h1+p{
+    color:blue;
+}
+/* Selector de hermanos generales */
+h1~p{
+    color: blue;
+}
