@@ -1,3 +1,20 @@
 body{
-    color:brown
+   color: blue; 
+}
+div{
+    color: red;
+    font-family: sans-serif;
+}
+div{
+    width: 50%;
+}
+/*  inherit sirve para coger el color del padre que es el div // si el div no tiene color escogera el color del body  */
+
+/* initial hace que los valores se restablescan sea el color o tipo de letra entre otros  */
+
+/*  unset si el valor por defecto era inherit lo vuelve a inherit pero si por defecto era otro lo deja en initial */
+h1{
+    color:unset  ;
+    font-family: initial;
+
 }

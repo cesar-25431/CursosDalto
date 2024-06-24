@@ -1,0 +1,30 @@
+h1{
+    color: brown;
+    margin: 30px;
+    font-family: sans-serif;
+
+}
+h1:hover{
+    color: black;
+    background-color: aliceblue;
+}
+h1:active{
+    background-color: #999;
+    color: white;
+}
+
+/* Sleecionarl el primer li */
+
+li:first-child{
+    color: red;
+}
+/* selecionar el segundo li */
+
+li:nth-child(2){
+    color: green;
+}
+
+/* Seleccionar el ultimo li */
+li:last-child{
+    color: blue;
+}
