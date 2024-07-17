@@ -1,0 +1,35 @@
+section .elemento1,
+section .elemento2,
+section .elemento3{
+    color: red;
+}
+
+/* where es sum simplicidad menos que el 
+is es mucho mayor
+y el has seleciona algo que este dentro si o si de ese codigo.. por ejemplo ele elmento 1 debe contener color y si eso esta tnedra el color caso contrario no tendra */
+
+
+
+/* modifiando el los elementos 1,2 y 3 que estan dentro de algun SECTION*/
+section :is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+/* Si queremos que NO CAMBIE la especifidad, usamos WHERE() */
+
+/* en el caso de que a ul le siga un div modificamos el ul */
+ul:has(+div){
+    color: blue;
+}
+div{
+    padding: 20px;
+}
+label{
+    font-weight: bold;
+}
+label:has(input:valid){
+    color: green;
+}
+label:has(input:invalid){
+    color:red
+}

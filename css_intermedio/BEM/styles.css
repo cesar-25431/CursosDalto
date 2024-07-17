@@ -1,0 +1,18 @@
+.lista{
+    border: 2px solid black;
+}
+.listas__item{
+    color:  grey;
+    margin: 10px 0;
+    list-style: square;
+}
+.listas__item{
+    color: blue;
+    margin: 10px 0;
+    list-style: square;
+}
+.ingrediente-danino {
+    color: red;
+    margin: 10px 0;
+    list-style: square;
+}
