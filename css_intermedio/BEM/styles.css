@@ -6,13 +6,13 @@
     margin: 10px 0;
     list-style: square;
 }
-.listas__item{
-    color: blue;
-    margin: 10px 0;
-    list-style: square;
-}
-.ingrediente-danino {
+.item--danino{
     color: red;
-    margin: 10px 0;
-    list-style: square;
+}
+.item--importante{
+    color: blue;
+}
+.lista--vieja{
+    opacity: 0.4;
+    background-color: #ddd;
 }

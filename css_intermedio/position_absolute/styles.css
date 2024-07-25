@@ -1,0 +1,35 @@
+/* el position reltaive solo mueve el contenido pero no la caja  */
+body{
+    margin: 0;
+    background-color: #ededed;
+    font-family: sans-serif;
+}
+.contenedor{
+    border: 2px solid #000;
+    margin: 30px 50px;
+    background-color: #fff;
+    position: relative;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    
+}
+.box--blue{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    margin: auto;
+    
+}
+.box--red{
+    background-color: red;
+    
+}
+
