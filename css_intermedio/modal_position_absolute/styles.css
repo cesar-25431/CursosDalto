@@ -3,11 +3,11 @@ body{
     font-family: sans-serif;
 
 }
-.modal{
+dialog{
     position: absolute;
     background-color: #0009;
-    width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
     
 }
 .modal__content{
