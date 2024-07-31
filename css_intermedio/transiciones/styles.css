@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.box{
+    width: 220px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, color, font-size;
+    transition-duration: 1s;
+    color: white;
+}
+.box:hover{
+    background-color: aqua;
+    font-size: 80px;
+    color: #fff;
+}
