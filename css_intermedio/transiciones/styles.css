@@ -1,22 +1,27 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    height: 100vh;
 }
 .box{
-    width: 220px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     background-color: red;
-    margin: auto;
-    margin-top: 50px;
-    font-size: 60px;
-    text-align: center;
-    font-weight: bold;
-    transition-property: background-color, color, font-size;
+    margin: aut;
+    margin-top: 50px;    
+    transition-property: left;
     transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.22, .97, .49, .89);
     color: white;
+    transition-delay: 2s;
+    position: relative;
+    left: 0;
 }
-.box:hover{
+/* .box:hover{
     background-color: aqua;
     font-size: 80px;
     color: #fff;
+}    */
+body:hover .box{
+    left: 400px;
 }
