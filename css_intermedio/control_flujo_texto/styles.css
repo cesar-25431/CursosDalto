@@ -5,13 +5,16 @@ body{
 }
 .box{
     width: 240px;
-    height: 40px;
+    height: 170px;
     margin: auto;
     margin-top: 50px;
     background-color: #fff;
     border: 1px solid #0006;
-    white-space: pre;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    /* balancear parrafos el pretty */
+    text-wrap: pretty;
 
+}
+h1{
+    /* balancear texto usamos el balance */
+    text-wrap: balance;
 }
